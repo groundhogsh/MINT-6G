@@ -19,6 +19,9 @@ Wi-Fi technology is continuously innovating to cater to the growing customer dem
 
 ## Candidate Technical Features
 * 320 MHz Bandwidth and More Efficient Utilization of Noncontiguous Spectrum
+![](https://i.imgur.com/Ly3UQD7.png)
+
+
 * Multi-Band/Multi-Channel Aggregation and Operation
 * 16 Spatial Streams and Multiple-Input Multiple-Output Protocol Enhancements
 * Multi-Access Point Coordination
