@@ -18,17 +18,36 @@ Wi-Fi technology is continuously innovating to cater to the growing customer dem
 
 
 ## Candidate Technical Features
-* 320 MHz Bandwidth and More Efficient Utilization of Noncontiguous Spectrum
+### 320 MHz Bandwidth and More Efficient Utilization of Noncontiguous Spectrum
 ![](https://i.imgur.com/Ly3UQD7.png)
+there are ongoing discussions on whether 802.11be-compliant APs should:
+
+1.  Always schedule uplink transmissions in the 6GHz band, thereby reducing the time spent on channel contention
+2.  Have the ability to request 802.11ax devices to vacate the 6 GHz band on demand, to reinforce such coordinated access
 
 
-* Multi-Band/Multi-Channel Aggregation and Operation
-* 16 Spatial Streams and Multiple-Input Multiple-Output Protocol Enhancements
-* Multi-Access Point Coordination
-* Enhanced Link Adaptation and Retransmission Protocol
+
+### Multi-Band/Multi-Channel Aggregation and Operation
+
+* Multi-band data aggregation.
+* Simultaneous transmission and reception in different bands/channels.
+* Simultaneous transmission and reception in the same channel.
+* Data and control plane separation.
+
+
+### 16 Spatial Streams and Multiple-Input Multiple-Output Protocol Enhancements
+
+
+### Multi-Access Point Coordination
+
+
+### Enhanced Link Adaptation and Retransmission Protocol
+
+
 
 
 ## Coexistence in the 6 GHz Band
+
 
 ## 802.11be Performance Evaluation
 
