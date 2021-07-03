@@ -47,7 +47,9 @@ there are ongoing discussions on whether 802.11be-compliant APs should:
 
 
 ## Coexistence in the 6 GHz Band
-
+1. Coordinated OFDMA.
+2. Coordinated Null Steering.
+3. Distributed MIMO (D-MIMO)
 
 ## 802.11be Performance Evaluation
 
