@@ -36,14 +36,42 @@ there are ongoing discussions on whether 802.11be-compliant APs should:
 
 
 ### 16 Spatial Streams and Multiple-Input Multiple-Output Protocol Enhancements
+further upgrade the APs’ spatial multiplexing capabilities to accommodate up to 16 spatial streams
 
+implicit channel sounding procedure that relies on STA-transmitted pilots and exploits uplink/downlink channel reciprocity by calibration method
 
 ### Multi-Access Point Coordination
+
+802.11be APs will permit more efficient utilization of the limited time, frequency, and spatial resources available, and thus is also an appealing approach to enhance system performance.
+
+1. Coordinated OFDMA.
+
+Coordinated OFDMA is particularly attractive to minimize the latency of
+short packet data transmissions, since it allows efficient sharing and full occupation of the band by collaborating neighboring devices, which
+otherwise would require multiple contention processes and not utilize the available resources to their full potential.
+
+2. Coordinated Null Steering.
+
+When compared to coordinated OFDMA, coordinated null steering generally requires a further degree of cooperation among overlapping BSSs
+to organize scheduling decisions and facilitate the acquisition of CSI from non-associated devices, which is essential for the effective placement
+of radiation nulls.
+
+3. Distributed MIMO (D-MIMO).
+
+the implementation of D-MIMO in 802.11be would require the design
+of new distributed carrier sense multiple access with collision avoidance (CSMA/CA) mechanisms, compliant with regulations,to optimize channel
+access and guarantee fair coexistence with independent APs deployed in the same coverage area.
+
+![](https://i.imgur.com/Ft6Grnp.png)
 
 
 ### Enhanced Link Adaptation and Retransmission Protocol
 
+802.11be should evolve toward hybrid ARQ (HARQ) capabilities.
+HARQ-capable devices attempting to decode a retransmitted MPDU do not ignore the previous unsuccessful MPDU(s), but instead combine their soft-bits to improve the likelihood of correct decoding.
 
+MAC protocol data units (MPDUs)
+hybrid automatic repeat request (HARQ)
 
 
 ## Coexistence in the 6 GHz Band
