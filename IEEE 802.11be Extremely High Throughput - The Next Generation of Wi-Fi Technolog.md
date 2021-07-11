@@ -75,16 +75,23 @@ hybrid automatic repeat request (HARQ)
 
 
 ## Coexistence in the 6 GHz Band
-1. Coordinated OFDMA.
-2. Coordinated Null Steering.
-3. Distributed MIMO (D-MIMO)
+
+• Existing — and to-be-deployed — fixed and mobile services, which can be considered as incumbents
+
+• Newcomers, where we can distinguish between IEEE-based technologies, such as
+802.11ax or 802.11be, and Third Generation Partnership Project (3GPP)-based ones, such as New Radio-Unlicensed (NR-U).
+
+
 
 ## 802.11be Performance Evaluation
 
+* More bandwidth: 802.11be-capable APs support 160 MHz transmissions in the 6 GHz band, a feature likely to be mandatory in 802.11be, whereas 802.11ax APs perform 80 MHz transmissions.
+
+* More antennas and spatial streams per AP: 802.11be-capable APs incorporate 16 antennas, and can spatially multiplex up to 16 STAs in downlink and uplink — doubling the number of antennas and spatial streams w.r.t. 802.11ax APs.
+
+* Implicit CSI acquisition: 802.11be-capable APs rely on STA-transmitted pilots to estimate the channel. This allows 802.11be to reduce the overhead introduced by the explicit CSI acquisition procedure of 802.11ax.
 
 
 
-
-
-
-
+## Conclusion
+In this article, we have presented a comprehensive overview of the initial steps taken toward the creation and standardization of 802.11be, the next generation Wi-Fi beyond 802.11ax. In more detail, we have covered 802.11be’s main objectives and expected timelines, shared the viewpoints of different Wi-Fi stakeholders, and discussed its main candidate features — providing insights on their benefits and challenges as well as system-level simulation results in a typical enterprise scenario. The 802.11be standardization process has just started, and everything is still open. Please come and join us in making a better Wi-Fi.
