@@ -18,7 +18,24 @@
 
 ---
 
+
+比方說調整action，現在是1-5，你可以調成2-6 /3-7之類的測試
+
+現在5個action，你也可以多一些action，6789...個跑看看
+
+呈現結果x-axis會是iteration(n-th beacon)，y-axis會是 1. action 2. total SINR 3. Throughput (i.e., reward)
+
+另外bar圖x-axis是action，y-axis就是選擇到的次數，就是你現在貼的這些
+
+
+---
+
 ## Q-learning
+
+
+
+![](https://i.imgur.com/Yzu4gus.png)
+
 
 
 ![](https://i.imgur.com/LoezYOd.png)
