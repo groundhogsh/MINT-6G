@@ -1,0 +1,4 @@
+target awake time sleep for power saving
+OFDMA UL random access
+
+full duplex?

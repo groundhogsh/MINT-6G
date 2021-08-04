@@ -1,0 +1,17 @@
+ if  u == a 
+            %執行qlearn 找新的action
+            t_start = t;
+            throughput(t) = R( N ,K , t_start, t ,ap, sta, P , h , alpha, sigma ,a) ;
+            if (rand() < epsilon) | (t == 1)
+                a = action(randperm(numel(action),1));       %隨機選interval
+            else
+                [argvalue, a] = max( Q );                  % a = argmax O(a_k)
+            end;
+            U(iteration) = a;
+            if t ==  1 % 只會跑進來一次interval (最一開始) 
+                reward(iteration)  =  throughput(t) ;
+            else    
+                reward(iteration)  =  sum( throughput( t-U(iteration-1) + 1 : t ) ) / U(iteration-1);
+            end;
+
+            Q(a) = Q(a) + learn_rat * ( reward(iteration) + gamma * max(Q) - Q(a)  );
